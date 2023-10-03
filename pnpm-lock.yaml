@@ -48,7 +48,7 @@ dependencies:
     specifier: ^4.1.0
     version: 4.5.4(@refinedev/core@4.44.0)(@types/react-dom@18.2.8)(@types/react@18.2.24)(react-dom@18.2.0)(react-router-dom@6.16.0)(react@18.2.0)
   '@refinedev/simple-rest':
-    specifier: ^4.0.0
+    specifier: ^4.5.4
     version: 4.5.4(@refinedev/core@4.44.0)
   react:
     specifier: ^18.0.0

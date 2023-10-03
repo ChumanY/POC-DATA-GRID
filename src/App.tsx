@@ -27,7 +27,7 @@ import routerBindings, {
 } from "@refinedev/react-router-v6";
 import { ColorModeContextProvider } from "./contexts/color-mode";
 import { Header } from "./components/header";
-
+import { PostsList } from "./components/PostLists";
 function App() {
   return (
     <BrowserRouter>
@@ -49,7 +49,8 @@ function App() {
                 }}
               >
                 <Routes>
-                  <Route index element={<WelcomePage />} />
+                  <Route index element={<PostsList />} />
+                  <Route path="/post-list" element={<PostsList/>} /> 
                 </Routes>
                 <RefineKbar />
                 <UnsavedChangesNotifier />
